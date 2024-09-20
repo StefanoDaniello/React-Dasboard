@@ -46,6 +46,15 @@ function SidebarComponents() {
             Books
           </Link>
         </li>
+        <li className={`nav-item ${location.pathname === '/commedy' ? 'bg-active' : ''}`}>
+          <Link
+            to="/commedy"
+            className={`nav-link ${location.pathname === '/commedy' ? 'text-dark' : 'text-white'}`}
+          >
+            <FontAwesomeIcon icon={faBook} className="me-2" />
+            Commedy
+          </Link>
+        </li>
       </ul>
     </div>
   );
