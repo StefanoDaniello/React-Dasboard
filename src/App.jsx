@@ -10,7 +10,7 @@ function App() {
           <div className="message p-5">
             <div>
               <h1 className="text-black">Benvenuto nella Dashboard!</h1>
-              <p className="text-black">Qui puoi gestire i tuoi film e libri in modo semplice e veloce.</p>
+              <p className="text-black">Qui puoi gestire i tuoi film , libri e commedie in modo semplice e veloce.</p>
             </div>
           </div>
         </div>
