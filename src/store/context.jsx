@@ -11,7 +11,7 @@ export const ContextProvider = ({children}) =>{
     const[booksList]=useState(books);
     const[commedyList]=useState(commedie);
 
-    const [commedy,setCommedy]=useState()
+    const [commedy,setCommedy]=useState([])
 
 
     const value={filmList,booksList,commedyList,commedy,setCommedy}
