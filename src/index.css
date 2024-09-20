@@ -39,5 +39,6 @@ img{
     width: calc(100% - 170px);
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #f5f5f5;
 }

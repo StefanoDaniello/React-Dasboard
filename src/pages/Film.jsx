@@ -18,11 +18,12 @@ function Film(){
                               <th scope="col">Titolo</th>
                               <th scope="col">Data</th>
                               <th scope="col">Punteggio</th>
+                              <th scope="col">Mostra</th>
                           </tr>
                       </thead>
                       {filmList.map(film => (
                           <Table
-                            key={film.id}
+                            key={film.slug}
                             id={film.id}
                             title={film.title}
                             data={film.release_date}

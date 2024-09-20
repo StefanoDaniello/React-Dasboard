@@ -6,7 +6,7 @@ const books = [
       author: "George Orwell",
       release_date: "1949-06-08",
       rt_score: 95,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "1984",
       price: 9.99
     },
@@ -17,7 +17,7 @@ const books = [
       author: "Harper Lee",
       release_date: "1960-07-11",
       rt_score: 90,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "to-kill-a-mockingbird",
       price: 12.99
     },
@@ -28,7 +28,7 @@ const books = [
       author: "F. Scott Fitzgerald",
       release_date: "1925-04-10",
       rt_score: 85,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "the-great-gatsby",
       price: 14.99
     },
@@ -39,7 +39,7 @@ const books = [
       author: "Herman Melville",
       release_date: "1851-10-18",
       rt_score: 80,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "moby-dick",
       price: 10.99
     },
@@ -50,7 +50,7 @@ const books = [
       author: "Jane Austen",
       release_date: "1813-01-28",
       rt_score: 88,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "pride-and-prejudice",
       price: 8.99
     },
@@ -61,7 +61,7 @@ const books = [
       author: "J.D. Salinger",
       release_date: "1951-07-16",
       rt_score: 87,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "the-catcher-in-the-rye",
       price: 10.99
     },
@@ -72,7 +72,7 @@ const books = [
       author: "Aldous Huxley",
       release_date: "1932-08-18",
       rt_score: 85,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "brave-new-world",
       price: 11.99
     },
@@ -83,7 +83,7 @@ const books = [
       author: "J.R.R. Tolkien",
       release_date: "1937-09-21",
       rt_score: 92,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "the-hobbit",
       price: 13.99
     },
@@ -94,7 +94,7 @@ const books = [
       author: "J.R.R. Tolkien",
       release_date: "1954-07-29",
       rt_score: 94,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "lord-of-the-rings",
       price: 29.99
     },
@@ -105,7 +105,7 @@ const books = [
       author: "Fyodor Dostoevsky",
       release_date: "1866-01-01",
       rt_score: 89,
-      image: "https://placehold.co/300x300",
+      image: "https://placehold.co/300x200",
       slug: "crime-and-punishment",
       price: 12.99
     }

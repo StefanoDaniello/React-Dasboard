@@ -17,11 +17,12 @@ function Books() {
                                     <th scope="col">Titolo</th>
                                     <th scope="col">Data</th>
                                     <th scope="col">Prezzo</th>
+                                    <th scope="col">Mostra</th>
                                 </tr>
                             </thead>
                             {booksList.map(book => (
                                 <Table
-                                    key={book.id}
+                                    key={book.slug}
                                     id={book.id}
                                     title={book.title}
                                     data={book.release_date}

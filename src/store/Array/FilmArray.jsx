@@ -6,7 +6,7 @@ const film =[
         producer: "Christopher Nolan",
         release_date: "2010-07-16",
         rt_score: 87,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "inception"
     },
     {
@@ -16,7 +16,7 @@ const film =[
         producer: "The Wachowskis",
         release_date: "1999-03-31",
         rt_score: 88,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "the-matrix"
     },
     {
@@ -26,7 +26,7 @@ const film =[
         producer: "Christopher Nolan",
         release_date: "2014-11-07",
         rt_score: 72,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "interstellar"
     },
     {
@@ -36,7 +36,7 @@ const film =[
         producer: "Christopher Nolan",
         release_date: "2008-07-18",
         rt_score: 94,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "the-dark-knight"
     },
     {
@@ -46,7 +46,7 @@ const film =[
         producer: "James Cameron",
         release_date: "2009-12-18",
         rt_score: 82,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "avatar"
     },
     {
@@ -56,7 +56,7 @@ const film =[
         producer: "Ridley Scott",
         release_date: "2000-05-05",
         rt_score: 77,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "gladiator"
     },
     {
@@ -66,7 +66,7 @@ const film =[
         producer: "Francis Ford Coppola",
         release_date: "1972-03-24",
         rt_score: 98,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "the-godfather"
     },
     {
@@ -76,7 +76,7 @@ const film =[
         producer: "Quentin Tarantino",
         release_date: "1994-10-14",
         rt_score: 91,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "pulp-fiction"
     },
     {
@@ -86,7 +86,7 @@ const film =[
         producer: "Steven Spielberg",
         release_date: "1993-12-15",
         rt_score: 98,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "schindlers-list"
     },
     {
@@ -96,7 +96,7 @@ const film =[
         producer: "Robert Zemeckis",
         release_date: "1994-07-06",
         rt_score: 89,
-        image: "https://placehold.co/300x300",
+        image: "https://placehold.co/300x200",
         slug: "forrest-gump"
     }
 ]

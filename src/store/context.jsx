@@ -1,6 +1,6 @@
 import { useContext,createContext,useState } from "react";
-import film from "./FilmArray";
-import books from "./BooksArray";
+import film from "./Array/FilmArray";
+import books from "./Array/BooksArray";
 
 const Context = createContext();
 

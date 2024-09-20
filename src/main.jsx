@@ -4,6 +4,7 @@ import { ContextProvider } from './store/context.jsx'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Film from './pages/Film.jsx';
 import Books from './pages/Books.jsx';
+import Show from  './pages/Show.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 import App from './App.jsx'
@@ -19,8 +20,16 @@ const router = createBrowserRouter([
     element: <Film></Film>
   },
   {
+    path:"/film/:FilmSlug",
+    element: <Show/>
+  },
+  {
     path:"/books",
     element: <Books></Books>
+  },
+  {
+    path:"/books/:BooksSlug",
+    element: <Show/>
   }
 ])
 
