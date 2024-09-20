@@ -1,22 +1,23 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faFilm, faBook, faDashboard,faMasksTheater} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faFilm, faBook, faDashboard, faMasksTheater } from '@fortawesome/free-solid-svg-icons';
 
 function SidebarComponents() {
   const location = useLocation();
 
   return (
     <div className="d-flex flex-column py-3 sidebar">
-      <div className="d-flex">
-        <div className="img-container">
-        <FontAwesomeIcon icon={faDashboard} className="dasboard-icon" />
+      <Link to="/">
+        <div className="d-flex">
+          <div className="img-container">
+            <FontAwesomeIcon icon={faDashboard} className="dasboard-icon" />
+          </div>
+          <div className='ms-2'>
+            <strong className="text-center text-white">Dashboard</strong> <br />
+            <small className='text-white'>prova</small>
+          </div>
         </div>
-        <div className='ms-2'>
-          <strong className="text-center text-white">Dashboard</strong> <br />
-          <small className='text-white'>prova</small>
-        </div>
-      </div>
-
+      </Link>
       <strong className='text-white p-2'>Principali</strong>
       <ul className="nav flex-column">
         <li className={`nav-item ${location.pathname === '/' ? 'bg-active' : ''}`}>
@@ -51,7 +52,7 @@ function SidebarComponents() {
             to="/commedy"
             className={`nav-link ${location.pathname === '/commedy' ? 'text-dark' : 'text-white'}`}
           >
-            <FontAwesomeIcon icon={faMasksTheater } className="me-2" />
+            <FontAwesomeIcon icon={faMasksTheater} className="me-2" />
             Commedy
           </Link>
         </li>
