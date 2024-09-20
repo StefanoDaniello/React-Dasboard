@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faFilm, faBook, faDashboard } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faFilm, faBook, faDashboard,faMasksTheater} from '@fortawesome/free-solid-svg-icons';
 
 function SidebarComponents() {
   const location = useLocation();
@@ -51,7 +51,7 @@ function SidebarComponents() {
             to="/commedy"
             className={`nav-link ${location.pathname === '/commedy' ? 'text-dark' : 'text-white'}`}
           >
-            <FontAwesomeIcon icon={faBook} className="me-2" />
+            <FontAwesomeIcon icon={faMasksTheater } className="me-2" />
             Commedy
           </Link>
         </li>

@@ -98,8 +98,8 @@ img{
 }
 
 /* Bottone nella modale */
-.btn {
-    background-color: #007bff;
+.modal-btn {
+    background-color: #198754;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -107,6 +107,6 @@ img{
     border-radius: 5px;
 }
 
-.btn:hover {
-    background-color: #0056b3;
+.modal-btn:hover {
+    background-color: #157347;
 }

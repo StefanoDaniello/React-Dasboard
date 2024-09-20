@@ -26,7 +26,7 @@ function ModalComponent() {
                     <p><strong>Punteggio:</strong> {commedy.score}</p>
                 </div>
                 <div className="custom-modal-footer">
-                    <button onClick={handleClose} className="btn">Chiudi</button>
+                    <button onClick={handleClose} className="modal-btn">Chiudi</button>
                 </div>
             </div>
         </div>
